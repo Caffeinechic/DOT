@@ -128,23 +128,26 @@ export default function Home() {
           </div>
           <Grid cols={3} gap="lg">
             <TestimonialCard
-              name="Sarah Johnson"
-              role="CEO, TechStart Inc"
-              content="DOT transformed our vision into reality. Their attention to detail and technical expertise is unmatched."
+              author="Sarah Johnson"
+              role="CEO"
+              company="TechStart Inc"
+              quote="DOT transformed our vision into reality. Their attention to detail and technical expertise is unmatched."
               avatar="/placeholder-avatar-1.jpg"
               rating={5}
             />
             <TestimonialCard
-              name="Michael Chen"
-              role="Founder, GrowthLabs"
-              content="Working with DOT was a game-changer. They delivered on time and exceeded our expectations."
+              author="Michael Chen"
+              role="Founder"
+              company="GrowthLabs"
+              quote="Working with DOT was a game-changer. They delivered on time and exceeded our expectations."
               avatar="/placeholder-avatar-2.jpg"
               rating={5}
             />
             <TestimonialCard
-              name="Emily Rodriguez"
-              role="Marketing Director, BrandFlow"
-              content="The team at DOT is professional, creative, and highly skilled. Highly recommend!"
+              author="Emily Rodriguez"
+              role="Marketing Director"
+              company="BrandFlow"
+              quote="The team at DOT is professional, creative, and highly skilled. Highly recommend!"
               avatar="/placeholder-avatar-3.jpg"
               rating={5}
             />
